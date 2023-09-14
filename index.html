@@ -17,47 +17,50 @@
             var src = $(this).attr('href');
             $('#myModal').modal('show');
             $('#myModal iframe').attr('src', src);
+            $(".modal-backdrop").css("display","none"); 
         });
         //auto close or pause on model hide
         $("#myModal").on('hidden.bs.modal', function(e) {
             $("#myModal iframe").attr("src", '');
         });
-
         });
      
     </script>
   </head>
   <body>
-      <div style="padding-top: 100px">
-         <img src="img/cis.jpg" class="rounded mx-auto d-block rounded-circle border border-primary" style="width: 120px;" alt="...">
-      </div>
-      <h1 style="font-weight: bolder">Centro de Inovação SESI</h1>
-      <h3 style="font-weight: bold">Detector de frequência cardiaca Fetal</h3>
-
-      <div class="container">
-        <div class="row">
-            <div class="col-md-6 offset-md-3" style="padding-top: 25px">
+    <div class="container">
+      <div class="row">
+            <div class="mx-auto" style="width: auto; margin: auto; ">
+                <div style="padding-top: 100px">
+                  <img src="img/cis.jpg" class="rounded mx-auto d-block rounded-circle border border-primary" style="width: 120px;" alt="...">
+                
+                <h1 style="font-weight: bolder">Centro de Inovação SESI</h1>
+                <h3 style="font-weight: bold">Detector de frequência cardiaca Fetal</h3>
+            </div>
+      
+            <div class="mx-auto" style="width: auto; margin: auto; ">
                 <button class="btn shadow-lg p-3 mb-5 bg-white rounded modalclick" href="https://www.youtube-nocookie.com/embed/B7vzNaox-W8?rel=0&showinfo=0&autoplay=1">Saiba Mais</button><br>
             </div>
-        </div>
-      </div>
-      
+       
 
      <!-- Modal --> 
-     <div class="modal fade" id="myModal">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="myModalLabel">Detector de frequência cardiaca Fetal</h5>  
-                <a type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></a>    
-            </div>
-            <div class="modal-body">
-              <iframe src="" width="100%" height="300" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-      
-            </div>
-          </div>
+            <div class="modal fade" id="myModal">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="myModalLabel">Detector de frequência cardiaca Fetal</h5>  
+                        <a type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></a>    
+                    </div>
+                    <div class="modal-body">
+                      <iframe src="" width="100%" height="300" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+              
+                    </div>
+                  </div>
+                </div>
+              </div>
         </div>
       </div>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

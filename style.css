@@ -11,8 +11,8 @@
 
 body{
     background:linear-gradient(
-        rgba(0,0,0,.5),rgba(0,0,0,.5    )
-      ),url(img/bckg.jpeg) no-repeat center center fixed; 
+        rgba(0,0,0,.2),rgba(0,0,0,.2)
+      ),url(img/istbkg.jpeg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -21,23 +21,9 @@ body{
     margin:2rem
 }
 
-.modal-dialog {
-    max-width: 800px;
-    margin: 30px auto;
-}
-
-.modal-body {
-position:relative;
-padding:0px;
-}
-.btn-close {
-position:absolute;
-right:-30px;
-top:0;
-}
 
 button {
-    padding: 12.5px 30px;
+
     border: 0;
     border-radius: 100px;
     background-color: #2ba8fb;
