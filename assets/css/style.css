@@ -7,12 +7,13 @@
 
 body {
     background-color: rgb(243, 242, 242);
-    background-image: url("../images/bg.jpg");
+    background-image: radial-gradient(#8eb5df,#004ea2);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: top;
     background-size: cover;
 }
+
 
 #userPhoto {
     width: 100px;
@@ -58,7 +59,7 @@ body {
 }
 
 .link {
-    color: rgb(66, 110, 255);
+    color: rgb(8, 118, 221);
     display: block;
     background-color: rgba(255, 255, 255, 0.99);
     font-family: var(--font);
@@ -75,9 +76,9 @@ body {
 
 .link:hover {
     background-color: rgba(255, 255, 255, 0.9);
-    color: rgb(66, 110, 255);
-    border: solid rgb(66, 110, 255) 2px;
-    border-bottom: 5px solid rgb(66, 110, 255);
+    color: rgb(8, 118, 221);
+    border: solid rgb(8, 118, 221) 2px;
+    border-bottom: 5px solid rgb(8, 118, 221);
 }
 
 .footer {
@@ -101,7 +102,7 @@ body {
 }
 
 .circulo:hover {
-    background: rgb(66, 110, 255);
+    background: rgb(8, 118, 221);
     color: rgb(255, 255, 255);
     -webkit-box-shadow: 2px 2px 2px rgba(50, 50, 50, 0.77);
     -moz-box-shadow: 2px 2px 2px rgba(50, 50, 50, 0.77);
@@ -118,7 +119,7 @@ body {
 
 
 .some-link {
-    color: rgb(66, 110, 255);
+    color: rgb(8, 118, 221);
     display: block;
     background-color: rgba(255, 255, 255, 0.99);
     font-family: var(--font);
@@ -137,9 +138,9 @@ body {
 
 .some-link:hover {
     background-color: rgba(255, 255, 255, 0.9);
-    color: rgb(66, 110, 255);
-    border: solid rgb(66, 110, 255) 2px;
-    border-bottom: 5px solid rgb(66, 110, 255);
+    color: rgb(8, 118, 221);
+    border: solid rgb(8, 118, 221) 2px;
+    border-bottom: 5px solid rgb(8, 118, 221);
 }
 
 .some-icons-container {
