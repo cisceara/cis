@@ -1,71 +1,84 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
-    <title>Centro de Inovação SESI</title>
-    <script>
+    <meta name="keywords" content="halloween linkfree linktree template spooky minimalist">
+    <meta name="author" content="Darshan K S">
+    <title>Centro de Inovação SESI Ceará</title>
+    <link rel="icon" href="./assets/images/title.png" type="image/x-icon" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!--Icons-->
+    
+   
+            <!-- Bootstrap CSS -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-        $(document).ready(function() {
-        $('.modalclick').on('click', function(e) {
-            e.preventDefault();
-            var src = $(this).attr('href');
-            $('#myModal').modal('show');
-            $('#myModal iframe').attr('src', src);
-            $(".modal-backdrop").css("display","none"); 
-        });
-        //auto close or pause on model hide
-        $("#myModal").on('hidden.bs.modal', function(e) {
-            $("#myModal iframe").attr("src", '');
-        });
-        });
-     
-    </script>
-  </head>
-  <body>
-    <div class="container">
-      <div class="row">
-            <div class="mx-md-auto" style="width: auto; margin: auto; ">
-                <div style="padding-top: 100px">
-                  <img src="img/cis.jpg" class="rounded mx-auto d-block rounded-circle border border-primary" style="width: 120px;" alt="...">
+            <script>
+
+                $(document).ready(function() {
+                $('.modalclick').on('click', function(e) {
+                    e.preventDefault();
+                    var src = $(this).attr('href');
+                    window.$('#myModal').modal('show');
+                    $('#myModal iframe').attr('src', src);
+                    $(".modal-backdrop").css("display","none"); 
+                });
+                //auto close or pause on model hide
+                $("#myModal").on('hidden.bs.modal', function(e) {
+                    $("#myModal iframe").attr("src", '');
+                });
+                });
+            
+            </script>
+
+</head>
+<body>
+    <img id="userPhoto" src="./assets/images/profile.jpg" alt="User Photo">
+    <h5 id="userName">Centro de Inovação SESI Ceará</h5>
+    <h2 id="title">Detector de frequência cardíaca Fetal</h2>
+
+
+    <div id="links">
+        <span class="link  modalclick" href="https://www.youtube-nocookie.com/embed/B7vzNaox-W8?rel=0&showinfo=0&autoplay=1">Vídeo</span>
+        <a class="link" href="assets/arquivos/PDF.pdf" target="_blank">Descrição do Dispositivo</a>
+        <a target="_blank" rel="noopener nofollow" class="page-item-each py-10 flex-both-center" href="#collapseExample" data-toggle="collapse" aria-expanded="false" aria-controls="collapseExample"
+                            data-id="261652" data-type="page_item" role="button">
+                                                
+        <span class="link item-title text-center">Conheça o CIS Ceará</span>
+        </a>
+        <div class="collapse text-center" id="collapseExample">
+            <div class="card card-body">
+                <p><h2 id="h2">Centro de Inovação SESI</h2></p> 
+                <p><h5></h5></p>
                 
-                <h1 style="font-weight: bolder">Centro de Inovação SESI</h1>
-                <h3 style="font-weight: bold">Detector de frequência cardiaca Fetal</h3>
+                <a type="button" class="btn btn-outline-primary" href="CentrodeInovacaoSESICE.vcf">(85) 99751-0000</a>    
             </div>
-      
-            <div class="mx-auto" style="width: auto; margin: auto; ">
-                <button class="btn shadow-lg p-3 mb-5 bg-white rounded modalclick" href="https://www.youtube-nocookie.com/embed/B7vzNaox-W8?rel=0&showinfo=0&autoplay=1">Saiba Mais</button><br>
-            </div>
-       
+        </div>
 
-     <!-- Modal --> 
+    </div>
+
+            <!-- Modal --> 
             <div class="modal fade" id="myModal">
                 <div class="modal-dialog">
-                  <div class="modal-content">
+                <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="myModalLabel">Detector de frequência cardiaca Fetal</h5>  
+                        <h5 class="modal-title" id="myModalLabel">Detector de frequência cardíaca Fetal</h5>  
                         <a type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></a>    
                     </div>
                     <div class="modal-body">
-                      <iframe src="" width="100%" height="300" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-              
+                    <iframe src="" width="100%" height="300" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            
                     </div>
-                  </div>
                 </div>
-              </div>
-        </div>
-      </div>
-    </div>
+                </div>
+            </div>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
+    <script src="./assets/js/script.js"></script>
+</body>
 </html>
